@@ -1,0 +1,16 @@
+#!/bin/bash
+
+DIST_DIR="./dist"
+OBJ_DIR="./src/obj"
+
+if [[ ! -e $DIST_DIR  ]]; then
+    mkdir $DIST_DIR
+fi
+
+echo "Dist dir created."
+
+if [[ ! -e $OBJ_DIR  ]]; then
+    mkdir $OBJ_DIR
+fi
+
+echo "Oobject dir created."
